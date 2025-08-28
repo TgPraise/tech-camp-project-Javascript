@@ -88,12 +88,6 @@ searchInput.addEventListener("keypress", (e) => {
 // Add CSS styles dynamically
 const style = document.createElement("style");
 style.textContent = `
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-  }
   #searchInput {
     width: 300px;
     padding: 10px;
